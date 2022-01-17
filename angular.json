@@ -31,9 +31,25 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/template-files/vendors/mdi/css/materialdesignicons.min.css",
+              "src/assets/template-files/vendors/feather/feather.css",
+              "src/assets/template-files/vendors/base/vendor.bundle.base.css",
+              "src/assets/template-files/vendors/flag-icon-css/css/flag-icon.min.css",
+              "src/assets/template-files/vendors/font-awesome/css/font-awesome.min.css",
+              "src/assets/template-files/vendors/jquery-bar-rating/fontawesome-stars-o.css",
+              "src/assets/template-files/vendors/jquery-bar-rating/fontawesome-stars.css",
+              "src/assets/template-files/css/style.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/template-files/vendors/base/vendor.bundle.base.js",
+              "src/assets/template-files/js/off-canvas.js",
+              "src/assets/template-files/js/hoverable-collapse.js",
+              "src/assets/template-files/js/template.js",
+              "src/assets/template-files/vendors/chart.js/Chart.min.js",
+              "src/assets/template-files/vendors/jquery-bar-rating/jquery.barrating.min.js",
+              "src/assets/template-files/js/dashboard.js"
+            ]
           },
           "configurations": {
             "production": {
