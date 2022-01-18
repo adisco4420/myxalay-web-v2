@@ -1,2 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('~@fortawesome/fontawesome-free/css/all.min.css');
+$brand-pry-color : #440F7C;
+p, h1, h2, h3, h4, h5, h6 {
+  color: #5E5873 !important;
+}
+.text-mute {
+  color: #BDBDC7 !important;
+}
+.text-link {
+  color: #444B8C;
+}
+.btn {
+  border-radius: 5px;
+  &.btn-pry {
+    background: $brand-pry-color;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  &.btn-link {
+    background: #F7D3EA;
+    color: #D62196;
+  }
+}
+
+.fs-16 {
+  font-style: normal;
+  font-weight: 503;
+  font-size: 1.1rem;
+  line-height: 24px;
+}
+.fs-13 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+}
+.fs-12 {
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 19px;
+}
+.fs-10 {
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 19px;
+}

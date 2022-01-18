@@ -3,7 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashLayoutComponent } from './dash-layout/dash-layout.component';
 
 const routes: Routes = [
-  { path: '', component: DashLayoutComponent}
+  {
+    path: '', component: DashLayoutComponent,
+    children: [
+      { path: '', loadChildren: () => import('../recruitmet/recruitmet.module').then(m => m.RecruitmetModule)}
+    ]
+  }
 ];
 
 @NgModule({
