@@ -8,7 +8,100 @@ declare let $: any;
   styleUrls: ['./dash-layout.component.scss']
 })
 export class DashLayoutComponent implements OnInit, AfterViewInit {
-
+  sidebarMenu = [
+    {
+      icon: '',
+      title: 'Employee',
+      slug: 'employee',
+      subMenu: [
+        { title: 'Employee' }
+      ]
+    },
+    {
+      icon: '',
+      title: 'Payroll',
+      slug: 'payroll',
+      subMenu: [
+        { title: 'Payroll' }
+      ]
+    },
+    {
+      icon: '',
+      title: 'Attendance',
+      slug: 'attendance',
+      subMenu: [
+        { title: 'Attendance' }
+      ]
+    },
+    {
+      icon: '',
+      title: 'Leave',
+      slug: 'leave',
+      subMenu: [
+        { title: 'Leave' }
+      ]
+    },
+    {
+      icon: '',
+      title: 'Time Tracker',
+      slug: 'time-tracker',
+      subMenu: [
+        { title: 'Time Tracker' }
+      ]
+    },
+    {
+      icon: '',
+      title: 'Recruitment',
+      slug: 'recruitment',
+      subMenu: [
+        { title: 'Job Opportunities' },
+        { title: 'Application Form' },
+        { title: 'Talent Qualifier' },
+        { title: 'Onboarding' },
+        { title: 'Settings' },
+      ]
+    },
+    {
+      icon: '',
+      title: 'Requisition',
+      slug: 'requisition',
+      subMenu: [
+        { title: 'Requisition' },
+      ]
+    },
+    {
+      icon: '',
+      title: 'Health',
+      slug: 'health',
+      subMenu: [
+        { title: 'Health' },
+      ]
+    },
+    {
+      icon: '',
+      title: 'Performance',
+      slug: 'performance',
+      subMenu: [
+        { title: 'Performance' },
+      ]
+    },
+    {
+      icon: '',
+      title: 'Reports',
+      slug: 'reports',
+      subMenu: [
+        { title: 'Reports' },
+      ]
+    },
+    {
+      icon: '',
+      title: 'Settings',
+      slug: 'settings',
+      subMenu: [
+        { title: 'Settings' },
+      ]
+    },
+  ]
   constructor(
     private elementRef: ElementRef,
     public domsaniter: DomSanitizer) {

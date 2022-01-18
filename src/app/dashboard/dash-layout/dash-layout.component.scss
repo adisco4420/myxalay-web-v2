@@ -1,0 +1,35 @@
+.navbar .navbar-brand-wrapper .navbar-brand img {
+  height: 50px !important;
+}
+.sidebar .nav .nav-item .nav-link  {
+  .menu-title, .menu-icon, i.menu-arrow {
+    color: #5E5873;
+  }
+}
+.sidebar .nav.sub-menu .nav-item .nav-link {
+  color: #5E5873;
+}
+.sidebar .nav .nav-item .nav-link {
+  border: white !important;
+}
+.sidebar .nav.sub-menu .nav-item .nav-link::before {
+  border: 2px solid #5E5873;
+}
+.sidebar .nav.sub-menu {
+  background: #DACFE5
+}
+.sidebar .nav .nav-item.active >  {
+  .nav-link {
+    background: #440F7C;
+    color: #fff;
+    .menu-title, .menu-icon, i.menu-arrow {
+      color: #fff;
+    }
+  }
+}
+.sidebar .nav.sub-menu .nav-item .nav-link {
+  padding: 1rem 2rem;
+}
+.sidebar .nav.sub-menu .nav-item .nav-link::before {
+  display: none;
+}
