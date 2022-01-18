@@ -33,3 +33,7 @@
 .sidebar .nav.sub-menu .nav-item .nav-link::before {
   display: none;
 }
+.sidebar .nav .nav-item.hover-open .nav-link .menu-title {
+    background: #440F7C;
+    color: white;
+}
