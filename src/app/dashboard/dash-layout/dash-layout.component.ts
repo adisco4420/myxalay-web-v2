@@ -10,7 +10,7 @@ declare let $: any;
 export class DashLayoutComponent implements OnInit, AfterViewInit {
   sidebarMenu = [
     {
-      icon: '',
+      icon: 'fa fa-user',
       title: 'Employee',
       slug: 'employee',
       subMenu: [
@@ -18,7 +18,7 @@ export class DashLayoutComponent implements OnInit, AfterViewInit {
       ]
     },
     {
-      icon: '',
+      icon: 'fa fa-file-invoice-dollar',
       title: 'Payroll',
       slug: 'payroll',
       subMenu: [
@@ -26,7 +26,7 @@ export class DashLayoutComponent implements OnInit, AfterViewInit {
       ]
     },
     {
-      icon: '',
+      icon: 'fa fa-user-check',
       title: 'Attendance',
       slug: 'attendance',
       subMenu: [
@@ -34,7 +34,7 @@ export class DashLayoutComponent implements OnInit, AfterViewInit {
       ]
     },
     {
-      icon: '',
+      icon: 'fa fa-briefcase',
       title: 'Leave',
       slug: 'leave',
       subMenu: [
@@ -42,7 +42,7 @@ export class DashLayoutComponent implements OnInit, AfterViewInit {
       ]
     },
     {
-      icon: '',
+      icon: 'fa fa-clock',
       title: 'Time Tracker',
       slug: 'time-tracker',
       subMenu: [
@@ -50,7 +50,7 @@ export class DashLayoutComponent implements OnInit, AfterViewInit {
       ]
     },
     {
-      icon: '',
+      icon: 'fa fa-user-plus',
       title: 'Recruitment',
       slug: 'recruitment',
       subMenu: [
@@ -62,7 +62,7 @@ export class DashLayoutComponent implements OnInit, AfterViewInit {
       ]
     },
     {
-      icon: '',
+      icon: 'fa fa-file',
       title: 'Requisition',
       slug: 'requisition',
       subMenu: [
@@ -70,7 +70,7 @@ export class DashLayoutComponent implements OnInit, AfterViewInit {
       ]
     },
     {
-      icon: '',
+      icon: 'fa fa-briefcase-medical',
       title: 'Health',
       slug: 'health',
       subMenu: [
@@ -78,7 +78,7 @@ export class DashLayoutComponent implements OnInit, AfterViewInit {
       ]
     },
     {
-      icon: '',
+      icon: 'fa fa-chart-pie',
       title: 'Performance',
       slug: 'performance',
       subMenu: [
@@ -86,7 +86,7 @@ export class DashLayoutComponent implements OnInit, AfterViewInit {
       ]
     },
     {
-      icon: '',
+      icon: 'fa fa-file-alt',
       title: 'Reports',
       slug: 'reports',
       subMenu: [
@@ -94,7 +94,7 @@ export class DashLayoutComponent implements OnInit, AfterViewInit {
       ]
     },
     {
-      icon: '',
+      icon: 'fa fa-cog',
       title: 'Settings',
       slug: 'settings',
       subMenu: [

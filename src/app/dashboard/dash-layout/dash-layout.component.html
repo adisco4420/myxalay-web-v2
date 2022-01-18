@@ -91,13 +91,13 @@
       <ul class="nav">
         <li class="nav-item">
           <a class="nav-link" href="index.html">
-            <i class="icon-box menu-icon"></i>
+            <i class="fa fa-home menu-icon"></i>
             <span class="menu-title">Dashboard</span>
           </a>
         </li>
         <li class="nav-item" *ngFor="let menu of sidebarMenu">
           <a class="nav-link" data-toggle="collapse" [href]="'#'+(menu.slug || menu.title)" aria-expanded="false" aria-controls="ui-basic">
-            <i class="icon-disc menu-icon"></i>
+            <i class="{{menu.icon || 'icon-disc'}} menu-icon"></i>
             <span class="menu-title">{{menu.title}}</span>
             <i class="menu-arrow"></i>
           </a>

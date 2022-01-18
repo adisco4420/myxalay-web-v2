@@ -48,7 +48,8 @@
               "src/assets/template-files/js/template.js",
               "src/assets/template-files/vendors/chart.js/Chart.min.js",
               "src/assets/template-files/vendors/jquery-bar-rating/jquery.barrating.min.js",
-              "src/assets/template-files/js/dashboard.js"
+              "src/assets/template-files/js/dashboard.js",
+              "node_modules/feather-icons/dist/feather.min.js"
             ]
           },
           "configurations": {
