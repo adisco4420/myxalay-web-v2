@@ -55,7 +55,7 @@ export class DashLayoutComponent implements OnInit, AfterViewInit {
       slug: 'recruitment',
       subMenu: [
         { title: 'Job Opportunities' },
-        { title: 'Application Form' },
+        { title: 'Application Form', route: '/create-job-application' },
         { title: 'Talent Qualifier' },
         { title: 'Onboarding' },
         { title: 'Settings' },

@@ -104,7 +104,7 @@
           <div class="collapse" [id]="(menu.slug || menu.title)">
             <ul class="nav flex-column sub-menu">
               <li class="nav-item" *ngFor="let subMenu of menu.subMenu">
-                <a class="nav-link" href="pages/ui-features/buttons.html">{{subMenu.title}}</a>
+                <a class="nav-link" routerLink="{{subMenu.route || '/'}}">{{subMenu.title}}</a>
               </li>
             </ul>
           </div>
